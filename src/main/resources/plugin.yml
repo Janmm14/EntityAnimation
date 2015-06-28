@@ -1,0 +1,11 @@
+name: ${project.name}
+version: ${project.version}-${env.BUILD_NUMBER}
+description: ${project.description}
+author: ${bukkit.pluginyml.author}
+main: ${bukkit.pluginyml.main}
+
+commands:
+  animateentity:
+    description: Animate entities
+    aliases: [aentity, ae]
+    usage: /<command> - Shows the help
